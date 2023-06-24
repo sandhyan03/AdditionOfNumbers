@@ -44,6 +44,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.example.AddTwoNumbers.AddTwoNumbersApplication</mainClass>
+				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
